@@ -2,17 +2,22 @@
 
 ## Description
 
-Simple manga viewer demo for test tauri + react
+Simple manga viewer demo for test [tauri](https://v2.tauri.app/) + react
 
 
 ### How to run
 
 * WEB
 
-    npm run dev
+        npm run dev
 
 * Linux
 
-    WEBKIT_DISABLE_DMABUF_RENDERER=1 WEBKIT_DISABLE_COMPOSITING_MODE=1 npm run tauri dev
+        npm run tauri dev
+
+  In some distros is necessary to set this variables
+
+      WEBKIT_DISABLE_DMABUF_RENDERER=1
+      WEBKIT_DISABLE_COMPOSITING_MODE=1 
 
 
